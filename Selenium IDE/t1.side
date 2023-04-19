@@ -1,0 +1,237 @@
+{
+  "id": "31915a95-4f05-4603-8697-726758f73a4c",
+  "version": "2.0",
+  "name": "1",
+  "url": "https://perftech.teamwork.com",
+  "tests": [{
+    "id": "b8bbe0fe-ca58-4ca7-8cec-715dcfab48be",
+    "name": "Untitled",
+    "commands": [{
+      "id": "1aec79d5-2323-441f-9d6b-7a792604b8af",
+      "comment": "",
+      "command": "open",
+      "target": "/launchpad/login/projects?continue=https%3A%2F%2Fperftech.teamwork.com%2Fapp%2Ftime%2Fall",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f9a68db-2b8d-48f1-b665-cad29b17f434",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1528x812",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ab143f0-afcc-4eb8-99e0-2933cc1f698c",
+      "comment": "",
+      "command": "type",
+      "target": "id=loginemail",
+      "targets": [
+        ["id=loginemail", "id"],
+        ["css=#loginemail", "css:finder"],
+        ["xpath=//input[@id='loginemail']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/section/div[2]/div[2]/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "vasilis.melissaropoulos@performance.gr"
+    }, {
+      "id": "020322fb-ae1d-4bb9-bff6-5fda3c8d6ad4",
+      "comment": "",
+      "command": "type",
+      "target": "id=loginpassword",
+      "targets": [
+        ["id=loginpassword", "id"],
+        ["css=#loginpassword", "css:finder"],
+        ["xpath=//input[@id='loginpassword']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/section/div[2]/div[2]/div/div/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "123qwe!@#QWE"
+    }, {
+      "id": "117e43ce-93f6-45f9-b3fb-2928d935cf1d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-button__label",
+      "targets": [
+        ["css=.w-button__label", "css:finder"],
+        ["xpath=//div[@id='app']/div/section/div[2]/div[2]/div/div/div/form/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b43be4a9-5c5c-4bb8-a605-e8cea6a18eab",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "76930745-2b3d-4416-aa93-fa487e4454cb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91378942-a805-410c-a4e8-0ea347b0d5aa",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c77c428-43f5-4085-8bc6-2c9db9596441",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e29d988-68bc-4f8e-9ed1-4ff3b03cb53c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-list-item--active .v-list-item-title",
+      "targets": [
+        ["css=.v-list-item--active .v-list-item-title", "css:finder"],
+        ["xpath=//nav[@id='mainNav']/div[2]/div/div/a[3]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//a[3]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df42e062-eea9-496f-b235-e81c49e32c29",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e26a451-56ef-4e39-b52c-90ca94242d39",
+      "comment": "Click Log Time button",
+      "command": "click",
+      "target": "css=.btn:nth-child(5)",
+      "targets": [
+        ["css=.btn:nth-child(5)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='DashboardContent']/div[3]/header/div/div[2]/button[4]", "xpath:idRelative"],
+        ["xpath=//button[4]", "xpath:position"],
+        ["xpath=//button[contains(.,'Log Time')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d290785-2aa1-45f5-b4d6-8db5ff52ac0e",
+      "comment": "Click Dropdown",
+      "command": "click",
+      "target": "xpath=//div/span/span/span",
+      "targets": [
+        ["css=.select2-selection", "css:finder"],
+        ["xpath=//form[@id='undefined_1']/div/div/span/span/span", "xpath:idRelative"],
+        ["xpath=//div/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54737f08-bbd8-48d8-8189-6e2de2609580",
+      "comment": "Type Search",
+      "command": "type",
+      "target": "css=.select2-search__field",
+      "targets": [],
+      "value": "Alpha Bank - Automated Regression Testing (ΕΡΓ2050)"
+    }, {
+      "id": "53f9d4fa-b2a2-4bbc-be18-53380adb10c8",
+      "comment": "Click Search Result",
+      "command": "click",
+      "target": "css=li.select2-results__option[aria-selected='false']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a4332b5-5bdc-4119-bf18-37013ad2a40c",
+      "comment": "Type Date",
+      "command": "type",
+      "target": "css=.w-date-input__input",
+      "targets": [
+        ["name=dp-input-1681833880015", "name"],
+        ["css=.w-date-input__input", "css:finder"],
+        ["xpath=//input[@name='dp-input-1681833880015']", "xpath:attributes"],
+        ["xpath=//div[@id='0-028207414909907413']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "01/01/2023"
+    }, {
+      "id": "91f1052b-5f1e-46c3-a318-589f5f1f7408",
+      "comment": "Type Start Time",
+      "command": "type",
+      "target": "css=.w-time-input:nth-child(2) > .w-input-with-icons__input",
+      "targets": [],
+      "value": "09:00"
+    }, {
+      "id": "afcc51ef-dd07-468d-898c-ad014a86633b",
+      "comment": "Type Duration hours",
+      "command": "type",
+      "target": "css=.form-group:nth-child(1) > .form-control",
+      "targets": [
+        ["css=.form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@value='3']", "xpath:attributes"],
+        ["xpath=//form[@id='undefined_1']/div/div[2]/div/div[4]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "8"
+    }, {
+      "id": "2c2451d9-cc96-409a-9f89-1d0a917f900a",
+      "comment": "Type Duration minutes",
+      "command": "type",
+      "target": "css=.form-group:nth-child(2) > .form-control:nth-child(1)",
+      "targets": [
+        ["css=.form-group:nth-child(2) > .form-control:nth-child(1)", "css:finder"],
+        ["xpath=(//input[@value='0'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='undefined_1']/div/div[2]/div/div[4]/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "5496179f-a86d-4e8a-973a-b4f6c904b07a",
+      "comment": "Check Billable",
+      "command": "check",
+      "target": "id=m-all-log-time-billable",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69862fe6-7d8c-4b11-aca6-ff5eb1a7c7a9",
+      "comment": "Type Description",
+      "command": "type",
+      "target": "css=.form-control:nth-child(2)",
+      "targets": [
+        ["css=.form-control:nth-child(2)", "css:finder"],
+        ["xpath=//form[@id='undefined_1']/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Some Description"
+    }, {
+      "id": "7aa66ce8-789a-4fd6-81b7-064e30ee5468",
+      "comment": "Click Add button",
+      "command": "click",
+      "target": "css=.btn-secondary:nth-child(1)",
+      "targets": [
+        ["css=.btn-secondary:nth-child(1)", "css:finder"],
+        ["xpath=//form[@id='undefined_1']/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a9f7896a-425b-4299-b4ce-5f22d0135889",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b8bbe0fe-ca58-4ca7-8cec-715dcfab48be"]
+  }],
+  "urls": ["https://perftech.teamwork.com/"],
+  "plugins": []
+}

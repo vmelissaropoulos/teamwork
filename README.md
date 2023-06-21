@@ -1,7 +1,8 @@
 # teamwork
 Selenium/Python script to log entries to Teamwork.com from csv
 
-- requires: 
+- requires:
+  - [Google Chrome](https://www.google.com/chrome/)
   - [Python >=3.11](https://www.python.org/downloads/)
   - [Selenium >=4.8](https://www.selenium.dev/documentation/webdriver/)
 
